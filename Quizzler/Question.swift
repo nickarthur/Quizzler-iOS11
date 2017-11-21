@@ -19,11 +19,3 @@ class Question {
     }
 }
 
-
-class myOtherClass {
-    static let question : Question = Question(text: "GRC, stands for Global RallyCross?", correctAnswer: true)
-    
-    static func printDescription(){
-        print(question)
-    }
-}
