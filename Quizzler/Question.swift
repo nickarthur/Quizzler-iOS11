@@ -21,5 +21,9 @@ class Question {
 
 
 class myOtherClass {
-    let question : Question = Question(text: "GRC, stands for Global RallyCross?", correctAnswer: true)
+    static let question : Question = Question(text: "GRC, stands for Global RallyCross?", correctAnswer: true)
+    
+    static func printDescription(){
+        print(question)
+    }
 }
